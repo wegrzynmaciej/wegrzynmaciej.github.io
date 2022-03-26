@@ -68,7 +68,16 @@
                 <input type="email" class="form-control" id="email">
               </div>
            </div>
-              <div class="form-group mb-3">
+           <label for="kierunek">Kierunek studiów</label>
+           <div class="row input-wrapper">
+            <div class="form-group col-12 col-lg-6">
+              <select id="kierunek" class="form-select" aria-label="Default select example">
+                <option value="1">Informatyka stosowana</option>
+                <option value="2">Gospodarka przestrzenna</option>
+                <option value="3">Innowacje w biznesie</option>
+              </select>
+            </div>
+              <div class="form-group col-12 col-lg-6">
                 <div class="form-check">
                   <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
                   <label class="form-check-label" for="flexRadioDefault1">
@@ -82,14 +91,8 @@
                   </label>
                 </div>
               </div>
-              <div class="form-group mb-3">
-                <label for="kierunek">Kierunek studiów</label>
-                <select id="kierunek" class="form-select" aria-label="Default select example">
-                  <option value="1">Informatyka stosowana</option>
-                  <option value="2">Gospodarka przestrzenna</option>
-                  <option value="3">Innowacje w biznesie</option>
-                </select>
-              </div>
+              
+            </div>
               <div class="form-group mb-3">
                 <label for="uwagi" class="form-label">Uwagi</label>
                 <textarea class="form-control" id="uwagi" rows="3"></textarea>
