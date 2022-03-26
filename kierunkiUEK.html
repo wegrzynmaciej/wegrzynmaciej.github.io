@@ -38,20 +38,66 @@
         </div>
         <div class="container">  
             <div class="row">
-                    <div class="col-12 col-md-4">
+                    <div class="col-md-4">
                     <h3>Informatyka stosowana</h3>
                     <p>Studiując ten kierunek poznasz przedmioty wchodzące w skład kanonu informatyki, a oprócz tego zyskasz solidne podstawy nauk ekonomicznych. Obok znajomości teoretycznych podstaw informatyki, budowy i zasad działania systemów komputerowych, programowania, baz danych, systemów operacyjnych, sieci komputerowych oraz projektowania systemów informacyjnych, będziesz mógł uzyskać wiedzę z zakresu ekonomii, zarządzania, przedsiębiorczości, rachunkowości czy prawa. Dzięki temu po skończeniu studiów będziesz dobrze rozumieć rzeczywistość gospodarczą i tym samym, z powodzeniem będziesz mógł zarówno projektować, wdrażać, administrować i analizować systemy informatyczne wspierające działalność biznesową, jak również projektować oprogramowanie tworzące systemy informatyczne.
                     </p>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-md-4">
                     <h3>Gospodarka przestrzenna</h3>
                     <p>Studia łączą wiedzę z zakresu ekonomii, architektury i urbanistyki, geodezji, geografii i kartografii, inżynierii środowiska i ekologii, prawa, socjologii, zarządzania oraz projektowania inżynierskiego. Kształcimy na nich kadrę ekonomistów o specjalistycznym przygotowaniu do pracy w różnych dziedzinach gospodarki lokalnej i regionalnej. W projektach realizowanych w toku studiów wykorzystywane jest najnowocześniejsze oprogramowanie w tym: AutoCAD, ArcGIS, QGIS, Surfer, GEOXA, SketchUp.</p>
                     </div>
-                    <div class="col-12 col-md-4">
+                    <div class="col-md-4">
                     <h3>Innowacje w biznesie</h3>
                     <p>Wiedza, przedsiębiorczość i innowacyjność to fundamenty rozwoju współczesnego biznesu. Kierunek pozwala pozyskać podstawową wiedzę i umiejętności z zakresu zarządzania i marketingu, finansów i rachunkowości, technologii informacyjnych i prawa, które są fundamentem prowadzenia działalności biznesowej związanej z innowacjami. Student nabywa specjalistyczną i praktyczną wiedzę dotyczącą funkcjonowania sektorów kreatywnych istart-upów, metod zarządzania innowacjami i funkcjonowania przemysłu 4.0.</p>
                     </div>
             </div>
         </div>
+            <form>
+            <div class="container">
+             <div class="row">
+              <h3>Formularz rejestracji</h3>
+              <div class="form-group mb-3 col-12 col-md-4">
+                <label for="imie">Imię</label>
+                <input type="text" class="form-control" id="imie">
+              </div>
+              <div class="form-group mb-3 col-12 col-md-4">
+                  <label for="nazwisko">Nazwisko</label>
+                  <input type="text" class="form-control" id="nazwisko">
+              </div>
+              <div class="form-group mb-3 col-12 col-md-4">
+                <label for="email">Adres e-mail</label>
+                <input type="email" class="form-control" id="email">
+              </div>
+           </div>
+              <div class="form-group mb-3">
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault1" checked>
+                  <label class="form-check-label" for="flexRadioDefault1">
+                    Studia stacjonarne
+                  </label>
+                </div>
+                <div class="form-check">
+                  <input class="form-check-input" type="radio" name="flexRadioDefault" id="flexRadioDefault2">
+                  <label class="form-check-label" for="flexRadioDefault2">
+                    Studia niestacjonarne
+                  </label>
+                </div>
+              </div>
+              <div class="form-group mb-3">
+                <label for="kierunek">Kierunek studiów</label>
+                <select id="kierunek" class="form-select" aria-label="Default select example">
+                  <option value="1">Informatyka stosowana</option>
+                  <option value="2">Gospodarka przestrzenna</option>
+                  <option value="3">Innowacje w biznesie</option>
+                </select>
+              </div>
+              <div class="form-group mb-3">
+                <label for="uwagi" class="form-label">Uwagi</label>
+                <textarea class="form-control" id="uwagi" rows="3"></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Zarejestruj</button>
+              <button type="submit" class="btn btn-danger">Anuluj</button>
+      </form>
     </body>
 </html>
